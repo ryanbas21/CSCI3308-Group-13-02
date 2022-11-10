@@ -10,3 +10,4 @@ Novemeber 10th 2022
    Backend: 
      Register connection from front end to backend is complete and ready to enter testing.
      API is working correctly and ready for implementation.
+     Resister page adds username, password, and address to data base and redirects to login if successful.
