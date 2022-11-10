@@ -102,6 +102,18 @@ app.get('/test', (req, res) => {
         })
 });
 
+app.get('/settings', (req, res) =>{
+    res.render('pages/settings')
+});
+
+app.get('/settings_address', (req, res) =>{
+    res.render('pages/settings_address')
+});
+
+app.get('/settings_password', (req, res) =>{
+    res.render('pages/settings_password')
+});
+
 app.get('/login', (req, res) =>{
     res.render('pages/login')
 });
